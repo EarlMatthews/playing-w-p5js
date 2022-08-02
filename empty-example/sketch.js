@@ -6,4 +6,6 @@ function setup() {
 function draw() {
   background(220);
   ellipse(50,50,80,80);
+  ellipse(x, height/2, 20, 20);
+  x = x + 1;
 }
